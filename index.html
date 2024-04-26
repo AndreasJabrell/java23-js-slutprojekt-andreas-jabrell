@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Movie Database</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="./js/main.js"></script>
+    <!--<script src="js/main.js" type="module"></script>-->
+</head>
+
+<body>
+    <div id="divHeader">
+    <header>
+        <h1>THE MOVIE DATABASE</h1><br>
+        <div id="linksHeader">
+            <h3 class="headerLinks">HOME</h3>
+            <h3 class="headerLinks">TOP RATED MOVIES</h3>
+            <h3 class="headerLinks">POPULAR MOVIES</h3>
+        </div>
+        <div id="formDiv">
+            <form id="form">
+                <input type="text" placeholder="search">        
+                <button id="btnSearch">Search</button>
+            </form>
+        </div>
+    </header>
+    </div>
+    
+    <div class="cont">
+        <div class="containerTopLists" id="containerTopLists"></div>
+        <div id="containerSearchResult"></div>
+    </div>
+<footer>
+    <div id="divFooter">
+        <p id="footerText">This product uses the TMDB API but is not endorsed or certified by TMDB.</p>
+        <img id="logo" src="tmdbLogo.svg" alt="The Movie Database Logo">
+    </div>
+</footer>
+</body>
+
+</html>

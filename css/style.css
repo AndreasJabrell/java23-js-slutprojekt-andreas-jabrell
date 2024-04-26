@@ -1,0 +1,131 @@
+body{
+    background-color: #0d253f;
+    color: white;
+}
+
+header{
+    background-color: #01b4e4;
+}
+
+h1 {
+    text-align: center;
+}
+
+.headerLinks{
+    text-align: center;
+    display: inline-flex; 
+    margin: 30px;
+    
+}
+#linksHeader{
+    display: inline-block;
+    zoom: 1; /* Trigger hasLayout */
+    width: 100%;
+    text-align: center;
+    display: flex;
+   justify-content: space-evenly;
+}
+
+#searchForm{
+    padding-bottom: 10px;
+    display: inline-flex;
+}
+
+.headerLinks:link {
+    color: black;
+}
+  
+.headerLinks:visited {
+    color: green;
+}
+  
+.headerLinks:hover {
+    color: red;
+}
+
+.headerLinks:active {
+    color: yellow;
+}
+
+#divHeader{
+    background-color: aqua;
+}
+
+footer {
+    bottom: 0;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline-flex;
+    
+}
+
+#logo{
+    max-width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#divFooter{
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-flex;
+    margin: 0 auto;
+}
+
+.containerTopLists{
+    display: inline-flex;
+    white-space: nowrap;
+    text-align: justify;
+}
+
+.divElMainCard {
+    background-color: #90cea1;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 3px;
+    padding: 3px;
+    text-align: center;
+    z-index: 2;
+    overflow: visible;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.displayPerson{
+    background-color: #90cea1;
+}
+.divEl {
+    background-color: #90cea1;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 3px;
+    padding: 3px;
+    text-align: center;
+}
+
+#containerSearchResult{
+    display: inline-flex;
+    flex-direction: column;
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: auto;
+/*     text-align: justify; */
+}
+
+.cont{
+    display:inline-block;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+}
+
+.overview {
+    max-width: 300px;
+    overflow: visible;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+    z-index: 10;
+}
