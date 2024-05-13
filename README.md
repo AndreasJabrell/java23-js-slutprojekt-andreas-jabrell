@@ -1,2 +1,2 @@
-# java23-js-slutprojekt-andreas-jabrell
-The movie database
+# Sluprojekt i JavaScript
+Har skapat IMDB light, the Movie Database 
