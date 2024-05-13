@@ -75,7 +75,16 @@ export async function fetchData (url, funcDisplay){
     console.log(data);
     funcDisplay(data);
 } catch (error) {
-    
+  if (error.message.includes('Failed to fetch')) {
+    funcError(errorMessageResponse);
+    console.error('Unable to connect to the internet. Please check your internet connection and try again.');
+    }
+  else if (error.message.includes('Cannot read properties of undefined')) {
     funcError(errorMessageInput);
-}
+    console.error('du har skrivit in fel ', error)
+    }
+  else {
+    console.error('An error occurred:', error);
+    }
+  }
 }
