@@ -22,7 +22,7 @@ const linkTopRated = document.querySelectorAll('h3')[1];
 const linkHome = document.querySelectorAll('h3')[0];
 const formEl= document.querySelector('form');
 const errorMessageInput = document.createElement('h4').innerText = `Can't find what you searched for, try writing that again`;
-const errorMessageResponse = document.createElement('h4').innerText = 'Something went wrong on the server side, try again later';
+const errorMessageResponse = document.createElement('h4').innerText = 'Something went terribly wrong, try again later';
 
 
 linkHome.addEventListener('click', event=>{
